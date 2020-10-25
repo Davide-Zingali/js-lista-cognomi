@@ -3,6 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-#output-lista, #output-lista-ordinata {
+#output-lista, #output-lista-ordinata, #posizione-lista {
   font-size: 25px;
 }

@@ -29,20 +29,7 @@ if (cognomeInput == '') {
 cognomiArray.sort();
 document.getElementById('output-lista-ordinata').innerHTML = 'Lista cognomi ordinata: ' + cognomiArray;
 
+// output posizione push
+var posizionePush = cognomiArray.indexOf(' ' + cognomeInput) + 1;
 
-
-// Consigli del giorno:
-// 1. consultiamo la documentazione W3Schools o MDN per trovare i metodi javascript che possono esserci utili;
-// 2. anche perchè appunto parte dell’ex sarà cercare qualcosa.
-// PS:: OCIO!!!! :octagonal_sign:
-// solo su questo EX usiamo while e non for (poi dal prox in poi farete come volete )
-// BONUS
-// stampa anche array non ordinato;
-// ordinamento fatto a mano (se proprio vi volete del male :wink: )
-
-
-// Lista Cognomi
-// Chiedere all’utente il cognome
-// inserirlo in un array con altri cognomi: ‘Bianchi’, ‘Rossi’, ‘Duzioni’, ‘Balsano’, ‘Verdi’
-// stampa la lista ordinata alfabeticamente
-// scrivi anche la posizione “umana” :nerd_face: della lista in cui il nuovo utente si trova
+document.getElementById('posizione-lista').innerHTML = 'Secondo la lista ordinata ti trovi nella medesima posizione: ' + posizionePush;
